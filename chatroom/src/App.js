@@ -20,7 +20,7 @@ class App extends Component {
         <Header/> 
         <Router>
           <Route path="/" exact component={Join} />
-          <Route path="/chat" component={Room} />
+          <Route path="/room" component={Room} />
         </Router>
         <Footer/>
       </div>
